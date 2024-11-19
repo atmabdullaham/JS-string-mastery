@@ -30,9 +30,15 @@ const num = "5";
 console.log(num.padStart(3, '0')); // '005'
 console.log(num.padEnd(3, '0')); // '500'
 
+const namee = "Advanced String Operations"
+const lowerName = namee.toLowerCase()
+const wordArray = lowerName.split(" ")
+const perfectName = wordArray.join("-");
 
+console.log(lowerName); //advanced string operations
+console.log(wordArray); //[ 'advanced', 'string', 'operations' ]
+console.log(perfectName); //advanced-string-operations
 
-//___________________________________________________6. Extracting Substrings
 //___________________________________________________6. Extracting Substrings
 
 
